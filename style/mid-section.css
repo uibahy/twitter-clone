@@ -1,0 +1,214 @@
+.middle-section{
+    padding: 0px 16px;
+    border: 1px solid rgb(27, 27, 27);
+    position: relative;
+}
+
+hr{
+    margin:0px -16px;
+    outline: none;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    height: 1px;
+}
+
+.home-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 53px;
+    user-select: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #d9d9d9    ;
+}
+
+.whats-happening{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    user-select: none;
+}
+
+.whats-happening img{
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.whats-happening input{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2px 0px;
+    width: 100%;
+    height: 52px;
+    border: none;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #d9d9d9;
+}
+
+.whats-happening input::placeholder{
+    color: #666666;
+}
+
+.whats-happening input:focus{
+    outline: none;
+}
+
+.text-emoji-cta{
+    width: 100%;
+}
+
+
+.emoji-cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.emoji-cta img{
+    margin: 0px 8px 0px 0px;
+    width: 39px;
+    border-radius: 999px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.emoji-cta img:hover{
+    background-color: #1da0f21e;
+}
+
+.emoji-cta button{
+    padding: 8px 24px;
+
+    background-color: #1DA1F2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    color: #ffffff;
+}
+
+.emoji-cta button:hover{
+    background-color: #1276b4;
+}
+
+
+/*  tweet container   */
+.tweet-container{
+    padding: 16px 16px;
+    margin: 0 -16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    user-select: none;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.tweet-container:hover{
+    background-color: rgb(17, 17, 17);
+}
+
+
+.tweet-header{
+    display: flex;
+}
+
+.tweet-normal{
+    margin-left: 16px;
+}
+
+.tweet-description{
+    margin-top: 4px;
+
+    color: white;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.tweet-header .name{
+    color: white;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+
+    margin-right: 4px;
+}
+
+.tweet-header .user-name{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #6E767D;
+}
+
+.tweet-image{
+    margin-top: 16px;
+    border-radius: 16px;
+}
+
+.tweet-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweets-ctas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+
+    color: white;
+}
+
+.reply{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6E767D;
+    transition: 0.3s;
+    cursor: pointer;
+    user-select: none;
+
+    padding: 8px;
+    border-radius: 99px;
+}
+
+.reply:hover{
+    color: #1276b4;
+    background-color: #1276b42d;
+    filter: invert(32%) sepia(92%) saturate(847%) hue-rotate(171deg) brightness(96%) contrast(91%);filter: invert(32%) sepia(92%) saturate(847%) hue-rotate(171deg) brightness(96%) contrast(91%);
+}
+
+.reply img{
+    margin-right: 8px;
+    width: 19px;
+}
