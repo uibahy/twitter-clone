@@ -73,12 +73,12 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 16px;
+    margin-top: 12px;
 }
 
 .emoji-cta img{
     margin: 0px 8px 0px 0px;
-    width: 39px;
+    width: 33px;
     border-radius: 999px;
     user-select: none;
     cursor: pointer;
@@ -120,7 +120,6 @@ hr{
     user-select: none;
 
     transition: 0.2s;
-    cursor: pointer;
 }
 
 .tweet-container:hover{
@@ -139,16 +138,24 @@ hr{
 .tweet-description{
     margin-top: 4px;
 
-    color: white;
+    color: #d9d9d9;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 20px;
+    cursor: text;
+}
+
+.tweet-description span:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
 }
 
 .tweet-header .name{
-    color: white;
+    display: flex;
+
+    color: #d9d9d9;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
@@ -156,6 +163,17 @@ hr{
     line-height: 20px;
 
     margin-right: 4px;
+    cursor: pointer;
+}
+
+.tweet-header .name:hover{
+    text-decoration-line: underline;
+}
+
+.tweet-header .name img{
+    filter: invert(100%) sepia(1%) saturate(976%) hue-rotate(50deg) brightness(85%) contrast(100%);
+    margin-left: 4px;
+    width: 18px;
 }
 
 .tweet-header .user-name{
@@ -183,7 +201,7 @@ hr{
     justify-content: space-between;
     margin-top: 8px;
 
-    color: white;
+    color: #d9d9d9;
 }
 
 .reply{
