@@ -1,6 +1,7 @@
 .middle-section{
     padding: 0px 16px;
     border: 1px solid rgb(27, 27, 27);
+    position: relative;
 }
 
 hr{
@@ -67,6 +68,7 @@ hr{
     width: 100%;
 }
 
+
 .emoji-cta{
     display: flex;
     justify-content: space-between;
@@ -109,13 +111,20 @@ hr{
 
 
 /*  tweet container   */
-
 .tweet-container{
-    padding: 16px 0;
+    padding: 16px 16px;
+    margin: 0 -16px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     user-select: none;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.tweet-container:hover{
+    background-color: rgb(20, 20, 20);
 }
 
 
