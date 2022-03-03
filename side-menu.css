@@ -46,6 +46,7 @@ section {
     display: flex;
     align-items: flex-start;
     border-radius: 999px;
+    user-select: none;
 
     text-decoration: none;
     list-style: none;
@@ -54,19 +55,20 @@ section {
     margin: 5px 0px;
     width: 80%;
     cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
 
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    transition-duration: 0.3s;
-
+    transition-duration: 0.2s;
 
 }
 
 .logo-menu-cta ul li:hover{
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(36, 36, 36);
+    border: 1px solid rgba(46, 46, 46, 0);
 
 }
 
@@ -86,6 +88,7 @@ section {
     width: 220px;
     border-radius: 999px;
     cursor: pointer;
+    user-select: none;
 
     font-family: 'Segoe UI';
     font-style: normal;
@@ -106,12 +109,18 @@ section {
     align-items: center;
     padding: 8px 8px;
     border-radius: 999px;
-    background-color: rgba(8, 8, 8, 0);
     margin-bottom: 14px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.user-profile:hover{
+    background-color: rgb(24, 24, 24);
 }
 
 .text-name-username{
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .user-profile h6{
@@ -147,6 +156,11 @@ section {
     border-radius: 50%;
     height: 44px;
 }
+
+
+/*  tweet container   */
+
+
 
 
 
