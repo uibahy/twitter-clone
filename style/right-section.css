@@ -4,6 +4,7 @@
     position: sticky;
     top: 0px;
     margin-top: 8px;
+    margin-left: 28px;
 }
 
 .search-input{
@@ -18,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #202327;
+    background-color: #15181C;
     border-radius: 99px 0px 0px 99px;
     padding: 16px 16px 16px 21px;
 }
@@ -26,7 +27,7 @@
 
 .search-input input{
     width: 100%;
-    background-color: #202327;
+    background-color: #15181C;
     outline: none;
     border: none;
     border-radius:  0 99px 99px 0;
@@ -70,7 +71,7 @@
     font-size: 19px;
     line-height: 23px;
     color: #d9d9d9;
-    background-color: #202327;
+    background-color: #15181C;
     border-radius: 16px 16px 0px 0px;
 }
 
@@ -79,7 +80,7 @@
     justify-content: space-between;
     padding: 12px 16px;
     width: 100%;
-    background-color: #202327;
+    background-color: #15181C;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -110,7 +111,7 @@
 }
 
 .show-more{
-    background-color: #202327;
+    background-color: #15181C;
     width: 100%;
     padding: 16px 16px;
     border-radius: 0 0 16px 16px;
@@ -128,3 +129,85 @@
     background-color: #2c3036;
 }
 
+
+
+/**/
+
+
+.users-follow{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #15181C;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+
+    padding: 12px 16px;
+}
+
+.users-follow:hover{
+    background-color: #292d31;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user img{
+    border-radius: 50%;
+}
+
+.user-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.user-text h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+}
+
+.user-text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #6E767D;
+}
+
+.follow-button{
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    border-radius: 99px;
+    height: 35px;
+
+    background-color: white;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.more-stuff{
+    margin-bottom: 8px;
+    color: #6E767D;
+    font-size: 13px;
+}
+
+.more-stuff span{
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.more-stuff span:hover{
+    text-decoration-line: underline;
+}
