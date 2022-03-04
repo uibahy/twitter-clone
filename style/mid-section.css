@@ -1,7 +1,8 @@
 .middle-section{
-    padding: 0px 16px;
     border: 1px solid rgb(27, 27, 27);
     position: relative;
+    padding: 0px 16px;
+    z-index: 3;
 }
 
 hr{
@@ -16,9 +17,15 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 600px;
     height: 53px;
     user-select: none;
+    position: sticky;
+    top: -0.5px;
+    background: rgba(0, 0, 0, 0.568);
+    backdrop-filter: blur(8px);
+    margin-left: -16px;
+    padding: 0px 16px;
 
     font-style: normal;
     font-weight: 500;
