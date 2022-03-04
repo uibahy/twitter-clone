@@ -26,6 +26,7 @@ hr{
     backdrop-filter: blur(8px);
     margin-left: -16px;
     padding: 0px 16px;
+    z-index: 3;
 
     font-style: normal;
     font-weight: 500;
