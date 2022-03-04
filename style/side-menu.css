@@ -26,6 +26,8 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 .logo-menu-cta{
