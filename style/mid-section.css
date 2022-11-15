@@ -47,6 +47,7 @@ hr{
 .whats-happening img{
     border-radius: 50%;
     margin-right: 16px;
+    width: 48px;
 }
 
 .whats-happening input{
@@ -129,6 +130,12 @@ hr{
 
     transition: 0.2s;
 }
+
+.tweet-container .user-img{
+    width: 48px;
+}
+
+
 
 .tweet-container:hover{
     background-color: rgb(17, 17, 17);
